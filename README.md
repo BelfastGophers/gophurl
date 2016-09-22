@@ -1,3 +1,2 @@
 # gophurl
-
-gophurl is a URL shortening service
+A Golang URL Shortener
