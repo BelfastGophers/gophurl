@@ -13,8 +13,9 @@ const (
 	   {{ range $key, $url := . }}
 	   <tr>
 	       <td>{{ $key }}</td>
-	       <td><a href="{{ $url.Url }}">{{ $url.Url }}</a></td>
-	       <td>{{ $url.Accessed }}</td>
+	       <td><a href="{{ $url.URL }}">{{ $url.URL }}</a></td>
+	       <td><a href="{{ $url.Code }}">{{ $url.Code }}</a></td>
+	       <td>{{ $url.AccessCount }}</td>
 	       <td>{{ $url.Created }}</td>
 	   </tr>
 	   {{ end }}

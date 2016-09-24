@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/BelfastGophers/gophurl/handlers"
-	"github.com/BelfastGophers/gophurl/models"
+	"github.com/AndrewSpeed/gophurl/handlers"
+	"github.com/AndrewSpeed/gophurl/models"
 
 	"fmt"
 	"net/http"
@@ -11,6 +11,7 @@ import (
 // Shortener provides a collection of web handlers
 type WebShortener interface {
 	Index(http.ResponseWriter, *http.Request)
+	GetRedirectUrl(string) (string, error)
 }
 
 // Shortener is a service which provides a web accessible URL shortener.

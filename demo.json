@@ -1,15 +1,15 @@
 {
     "updated": "2016-08-25T09:39:48+00:00",
     "urls": {
-        "asdf43": {
-            "accessed": 7,
-            "code": "asdf43",
+        "google": {
+            "accessed": 0,
+            "code": "goog",
             "created": "2016-08-25T09:39:48+00:00",
             "url": "https://www.google.com/"
         },
         "belfast-gophers": {
-            "accessed": 1,
-            "code": "gitgo",
+            "accessed": 0,
+            "code": "belgo",
             "created": "2016-08-25T09:43:48+00:00",
             "url": "https://twitter.com/belfast_gopher"
         }
