@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/AndrewSpeed/gophurl/data"
-	"github.com/AndrewSpeed/gophurl/services"
+	"github.com/BelfastGophers/gophurl/data"
+	"github.com/BelfastGophers/gophurl/services"
 
 	"fmt"
 )

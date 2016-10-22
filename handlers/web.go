@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/AndrewSpeed/gophurl/handlers/html"
-	"github.com/AndrewSpeed/gophurl/models"
-	"github.com/AndrewSpeed/gophurl/usecases"
+	"github.com/BelfastGophers/gophurl/handlers/html"
+	"github.com/BelfastGophers/gophurl/models"
+	"github.com/BelfastGophers/gophurl/usecases"
 
 	"html/template"
 	"net/http"

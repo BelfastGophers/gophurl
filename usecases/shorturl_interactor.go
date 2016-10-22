@@ -1,6 +1,6 @@
 package usecases
 
-import "github.com/AndrewSpeed/gophurl/models"
+import "github.com/BelfastGophers/gophurl/models"
 
 type ShortURLInteractor struct {
 	URLRepository models.ShortURLRepository

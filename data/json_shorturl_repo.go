@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/AndrewSpeed/gophurl/models"
+	"github.com/BelfastGophers/gophurl/models"
 )
 
 type JSONShortURLRepository struct {

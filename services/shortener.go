@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/AndrewSpeed/gophurl/handlers"
-	"github.com/AndrewSpeed/gophurl/models"
+	"github.com/BelfastGophers/gophurl/handlers"
+	"github.com/BelfastGophers/gophurl/models"
 
 	"fmt"
 	"net/http"
