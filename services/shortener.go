@@ -11,6 +11,7 @@ import (
 // Shortener provides a collection of web handlers
 type WebShortener interface {
 	Index(http.ResponseWriter, *http.Request)
+	GetRedirectUrl(string) (string, error)
 }
 
 // Shortener is a service which provides a web accessible URL shortener.

@@ -9,13 +9,13 @@ import (
 
 const (
 	// Path to a JSON file
-	pathToJsonFile = "demo.json" // Eeewwwwwww, code smell
+	pathToJSONFile = "demo.json" // Eeewwwwwww, code smell
 )
 
 // run is called by main so we can actually test this logic
 // TODO: Write tests....
 func run() error {
-	repo, err := data.NewJsonShortURLRepository(pathToJsonFile)
+	repo, err := data.NewJSONShortURLRepository(pathToJSONFile)
 	if err != nil {
 		return err
 	}

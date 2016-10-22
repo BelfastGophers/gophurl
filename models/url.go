@@ -10,11 +10,15 @@ type URLList struct {
 	ShortURLs    map[string]*ShortURL `json:"urls"`
 }
 
+func (list *URLList) GetShortUrls() map[string]*ShortURL {
+	return list.ShortURLs
+}
+
 // A ShortUrl is a structure which captures the
 type ShortURL struct {
 	URL         string     `json:"url"`
-	Code        string     `json:"short_code"`
-	AccessCount int        `json:"access_count"`
+	Code        string     `json:"code"`
+	AccessCount int        `json:"accessed"`
 	Created     *time.Time `json:"created"`
 }
 
